@@ -8,7 +8,7 @@
 /* Body Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e0f7fa;  /* Light background color */
+    background-color:rgb(245, 234, 164);  /* Light background color */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 
 /* Container for the weather info */
 .container {
-    background-color: #ffffff;
+    background-color:rgb(170, 222, 239);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
