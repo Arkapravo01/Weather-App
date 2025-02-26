@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;  /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the weather info */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Search input and button styling */
+#search {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px; /* Space between input and button */
+    font-size: 1em;
+}
+
+#btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #45a049;
+}
+
+/* Info blocks (City, Temp, Time, Weather) */
+.info-block {
+    display: block;  /* Elements in separate lines */
+    margin: 10px 0;
+    text-align: left;
+}
+
+.info-block h4 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;  /* Space between label and value */
+}
+
+.info-block .value {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Weather icon */
+#img img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    #search {
+        width: 70%;
+    }
+
+    #btn {
+        width: 20%;
+    }
+}
