@@ -9,7 +9,7 @@ const img=document.getElementById('img')
 // http://api.weatherapi.com/v1/current.json?key=156f06ec9bb54731967110553252602&q=Kolkata&aqi=yes //
 
 async function getData(myInputData) {
-    const data=await fetch(`http://api.weatherapi.com/v1/current.json?key=156f06ec9bb54731967110553252602&q=${myInputData}&aqi=yes`)
+    const data=await fetch(`https://api.weatherapi.com/v1/current.json?key=156f06ec9bb54731967110553252602&q=${myInputData}&aqi=yes`)
     return data.json()
 }
 
